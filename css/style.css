@@ -388,8 +388,8 @@ img{
 }
 
 .bride img{
-  width: 760px;
-  height: 380px;
+  width: 660px !important;
+  height: 410px;
 }
 
 .bride{
@@ -541,8 +541,8 @@ img{
 
 .text-block2{
   position: absolute;
-  top: 30px;
-  left: 50px;
+  top: 60px;
+  left: 60px;
 }
 
 .text-block2 .save-date{
@@ -563,8 +563,8 @@ img{
   flex-direction: column;
   text-align: right;
   position: absolute;
-  right: 70px;
-  top: 170px;
+  right: 60px;
+  top: 230px;
 }
 
 .resepsi{
@@ -572,15 +572,34 @@ img{
   flex-direction: column;
   text-align: left;
   position: absolute;
-  right: 70px;
-  top: 290px;
+  left: 60px;
+  top: 380px;
+}
+
+.kediaman{
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  position: absolute;
+  right: 60px;
+  top: 540px;
+}
+
+.kediaman1{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  position: absolute;
+  left: 60px;
+  top: 690px;
 }
 
 .resepsi span,
 .akad span,
-.kediaman span{
+.kediaman span,
+.kediaman1 span{
   font-family: 'qalistha';
-  font-size: 23px;
+  font-size: 17px;
   color: black;
   font-weight: bolder;
   z-index: 100;
@@ -594,18 +613,12 @@ img{
   padding: 0 !important;
 }
 
-.kediaman{
-  display: flex;
-  flex-direction: column;
-  text-align: right;
-  position: absolute;
-  right: 29px;
-  top: 355px;
-}
 
-.kediaman a img{
-  margin-top: 5px;
-  width: 100px;
+
+.kediaman1 a img{
+  margin-top: 60px;
+  margin-left: 130px;
+  width: 150px;
 }
 
 .sorry-protokol{ 
@@ -650,6 +663,39 @@ img{
   margin-top: 50px;
   width: 80%;
 }
+
+.family{
+  width: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.family p, .family .family-cewe ul, .family .family-cewe ul li,.family .family-cowo ul, .family .family-cowo ul li{
+  color: black;
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.family p{
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.family-cewe ul, .family-cowo ul{
+  font-weight: bolder;
+  font-size: 22px;
+}
+
+.family-cewe li, .family-cowo li{
+  margin-left: 30px;
+}
+
+.family-cewe,.family-cowo{
+  margin-top: 10px;
+}
+
 /* 
 .rsvp{
   margin-top: 20px;
@@ -1053,7 +1099,7 @@ input[type="radio"] {
   }
 
   .bride img{
-    width: 335px !important;
+    width: 335px;
   }
 
   .font-amalfi{
@@ -1106,9 +1152,9 @@ input[type="radio"] {
     line-height: 30px;
   }
 
-  .kediaman{
+  /* .kediaman{
     padding: 20px 40px;
-  }
+  } */
 
   /* .kediaman p{
     font-size: 18px !important;
