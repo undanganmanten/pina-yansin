@@ -384,12 +384,12 @@ img{
 #bride-groom{
   width: 100vw;
   height: max-content;
-  margin-top: 50px;
+  margin-top: 80px;
 }
 
 .bride img{
-  width: 640px !important;
-  height: 410px;
+  width: 400px !important;
+  height: 440px !important;
 }
 
 .bride{
@@ -594,6 +594,15 @@ img{
   top: 690px;
 }
 
+.kediaman2{
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  position: absolute;
+  right: 60px;
+  top: 880px;
+}
+
 .resepsi span,
 .akad span,
 .kediaman span,
@@ -615,9 +624,8 @@ img{
 
 
 
-.kediaman1 a img{
-  margin-top: 60px;
-  margin-left: 130px;
+.kediaman2 a img{
+  /* margin-top: 60px; */
   width: 150px;
 }
 
@@ -665,7 +673,7 @@ img{
 }
 
 .family{
-  width: 100vh;
+  width: 70vw ;
   display: flex;
   flex-direction: column;
   padding: 30px;
@@ -686,11 +694,9 @@ img{
 .family-cewe ul, .family-cowo ul{
   font-weight: bolder;
   font-size: 22px;
+  list-style: none;
 }
 
-.family-cewe li, .family-cowo li{
-  margin-left: 30px;
-}
 
 .family-cewe,.family-cowo{
   margin-top: 10px;
@@ -1098,9 +1104,9 @@ input[type="radio"] {
     line-height: 25px;
   }
 
-  .bride img{
+  /* .bride img{
     width: 335px;
-  }
+  } */
 
   .font-amalfi{
     font-size: 40px;
