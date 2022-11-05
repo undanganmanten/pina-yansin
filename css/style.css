@@ -348,6 +348,7 @@ img{
   width: 100vw;
   height: max-content;
   position: relative; 
+  margin: 20px 0px;
 }
 
 .content-isra{ 
@@ -386,9 +387,9 @@ img{
   margin-top: 50px;
 }
 
-#bride-groom .bride img{
-  width: 760px ;
-  height: 480px ;
+.bride img{
+  width: 760px;
+  height: 380px;
 }
 
 .bride{
