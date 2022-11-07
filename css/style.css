@@ -388,8 +388,8 @@ img{
 }
 
 .bride img{
-  width: 400px !important;
-  height: 440px !important;
+  width: 97vw;
+  height: 440px;
 }
 
 .bride{
@@ -617,7 +617,8 @@ img{
 
 .resepsi p,
 .akad p,
-.kediaman p{
+.kediaman p,
+.kediaman1 p{
   font-size: 13px !important;
   padding: 0 !important;
 }
@@ -701,6 +702,139 @@ img{
 .family-cewe,.family-cowo{
   margin-top: 10px;
 }
+
+
+.amplop{
+  width: 100vw;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.amplop-title{
+  font-family: "christ";
+  font-size: 40px ;
+  font-weight: bold;
+  color: #000;
+  letter-spacing: 5px;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.amplop-text{
+  color: #000;
+  font-family: "neutron";
+  font-weight: lighter;
+  font-size: 15px;
+  text-align: center;
+  padding: 0px 30px;
+  margin-bottom: 0px;
+}
+
+.trigger,.btn-rek{
+  text-align: center;
+  padding: 3px 30px;
+  background: transparent;
+  color: #000;
+  font-size: 13px;
+  outline: none;
+  border: solid 1px #000;
+  border-radius: 20px;
+  font-family: 'Playfair Display', serif;
+  /* font-weight: bold; */
+  font-size: 17px;
+}
+
+.btn-rek:hover{
+  color: #fff;
+  background: rgb(111, 80, 48);
+}
+
+.bank{
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: max-content;
+}
+
+.card-bank{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: transparent;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  border: #000000 solid 1px;
+}
+
+.card-bank p{
+  margin-bottom: 15px;
+  color: #000000;
+  font-family: 'Playfair Display', serif;
+  font-weight: lighter;
+  font-size: 18px;
+  text-align: center;
+}
+
+.card-bank img{
+  width: 50%;
+}
+
+.line{
+  width: 85%;
+  display: block;
+  height: 3px;
+  background-color: #000000;
+  margin: 15px auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+.mySlides img {
+  vertical-align: middle;
+}
+
+.slideshow-container {
+  width : 100vw;
+  height : max-content; 
+  margin: auto;
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2s;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
 
 /* 
 .rsvp{

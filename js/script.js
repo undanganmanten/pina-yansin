@@ -80,6 +80,23 @@ var x = setInterval(function() {
 }, 1000);
 
 
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  slides[slideIndex-1].style.display = "block"; 
+  setTimeout(showSlides, 3500); // Change image every 2 seconds
+}
+
+
+
 //firebase
 var firebaseConfig = {
     apiKey: "AIzaSyDDi2sRsUuXH52Cguo1hAGTwjO3NCl_09I",
@@ -160,4 +177,26 @@ function create_unfinished_task(){
   
     });
     
+  }
+
+  function copyToClipboard(elementId) {
+
+    // Create an auxiliary hidden input
+    var aux = document.createElement("input");
+  
+    // Get the text from the element passed into the input
+    aux.setAttribute("value", document.getElementById(elementId).innerHTML);
+  
+    // Append the aux input to the body
+    document.body.appendChild(aux);
+  
+    // Highlight the content
+    aux.select();
+  
+    // Execute the copy command
+    document.execCommand("copy");
+  
+    // Remove the input from the body
+    document.body.removeChild(aux);
+  
   }
