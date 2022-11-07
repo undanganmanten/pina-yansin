@@ -682,18 +682,18 @@ img{
 .family p, .family .family-cewe ul, .family .family-cewe ul li,.family .family-cowo ul, .family .family-cowo ul li{
   color: black;
   font-family: 'Playfair Display', serif;
-  font-size: 20px;
+  font-size: 17px;
   line-height: 30px;
 }
 
 .family p{
   font-weight: bold;
-  font-size: 25px;
+  font-size: 22px;
 }
 
 .family-cewe ul, .family-cowo ul{
   font-weight: bolder;
-  font-size: 22px;
+  font-size: 20px;
   list-style: none;
 }
 
